@@ -1,1 +1,266 @@
 @import url(../css/reset.css);
+@font-face {
+    font-family: 'Palace';
+    src: url(../font/Palace_of_Sports.ttf);
+}
+body {
+    font-family: Palace;   
+}
+.container {
+    width: 100%;
+    margin: 0 auto;
+    height: 5171px;
+    
+    
+}
+#color {
+    position: absolute;
+    background: rgb(255,255,255);
+    background-image: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 29%, rgba(216,237,255,1) 29%, rgba(216,237,255,1) 100%);
+    height: 5700px;
+    width: 100%;
+    margin: 0 auto  ;
+    z-index: -2;
+    
+}
+
+h1 {
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+    font-size: calc(350px + 16 * (100vw / 1920));
+    line-height: 400px;
+    justify-content: space-around;
+    
+}
+#chto {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-weight: 400;
+    font-size: calc(84px + 16 * (100vw / 1920));
+    line-height: 108px;
+}
+
+
+#obrabotka {
+    position: absolute;
+    top: 1930px;
+    left: 7%;
+    font-weight: 400;
+    font-size: calc(250px + 16 * (100vw / 1920));
+    line-height: 108px;
+    z-index: 2;
+}
+
+#put {
+    position: absolute;
+    top: 2125px;
+    right: 2%;
+    
+    
+}
+
+#put p:nth-child(1) {
+    font-weight: 400;
+    font-size: calc(140px + 16 * (100vw / 1920));
+    line-height: 240px;
+    text-align: right;
+}
+#put p:nth-child(2) {
+    font-weight: 400;
+    font-size: calc(300px + 16 * (100vw / 1920));
+    line-height: 100px;
+    text-align: right;
+}
+
+
+#pyat {
+    position: absolute;
+    font-weight: 400;
+    font-size: 1400px;
+    line-height: 240px;
+    top: 3079px;
+    left: 4%;
+}
+
+#etap {
+    font-weight: 400;
+    font-size: 140px;
+    line-height: 240px;
+    margin-left: 12vw;
+    margin-top: 5vh;
+}
+#razmetka {
+    font-weight: 400;
+    font-size: 140px;
+    line-height: 240px;
+    margin-left: 65vw;
+    margin-top: -16vh;
+}
+#certy{
+    position: absolute;
+    width: 100%;
+    font-weight: 400;
+    font-size: calc(140px + 16 * (100vw / 1920));
+    line-height: 240px;
+    margin-top: -13vh;
+    text-align: end;
+}
+
+#ogr {
+    width: 748px;
+    font-weight: 400;
+    font-size: calc(140px + 16 * (100vw / 1920));
+    line-height: 140px;
+    margin-left: 3vw;
+    margin-top: -2vw;
+}
+#rasp {
+    font-weight: 400;
+    font-size: calc(140px + 16 * (100vw / 1920));
+    line-height: 240px;
+    transform: rotate(-50deg);
+    margin-left: 26vw;
+    margin-top: 0vh;
+}
+#volny {
+    position: absolute;
+    /* margin-left: auto;
+    margin-right: auto; */
+    top: 40px;
+    height: 2130px;
+    width: 100%;
+    z-index: -1;
+}
+
+#poloses {
+    position: absolute;
+    top: 1227px;
+    height: 600px;
+    width: 100%;
+    z-index: 0;
+}
+
+
+.kamen1 {
+    display: inline-flex;
+    margin-top: 1490px;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+.kamen1 img {
+    z-index: 1;
+    object-fit: cover;
+    min-width: 930px;
+    height: 710px;
+    padding-right: 8%;
+    
+}
+
+.kamen2 {
+    display: inline-flex;
+    margin-top: -467px;
+    width: 100%;
+    justify-content: flex-start;
+}
+
+.kamen2 img {
+    object-fit: cover;
+    width: 693px;
+    height: 657px;
+    padding-left: 5%;
+    
+}
+.kamen3 {
+    
+    height: 1000px;
+    display: inline-flex;
+    justify-content: flex-end;
+    width: 98%;
+    margin-top: -529px;
+}
+
+.kamen3 img {
+    object-fit: cover;
+    position: absolute;
+    width: 760px;
+    height: 1000px;
+}
+
+.kamen4 {
+    display: inline-flex;
+    margin-top: -764px;
+    width: 100%;
+    justify-content: flex-start;
+}
+
+.kamen4 img {
+    object-fit: cover;
+    width: 963px;
+    height: 1196px;
+    padding-left: 5%;
+
+}
+
+.kamen5 {
+    
+    height: 1000px;
+    display: inline-flex;
+    justify-content: flex-end;
+    width: 96%;
+    margin-top: -630px;
+}
+
+.kamen5 img {
+    object-fit: cover;
+    position: absolute;
+    width: 870px;
+    height: 1000px;
+}
+
+.kamen6 {
+    display: inline-flex;
+    margin-top: -333px;
+    width: 45%;
+    justify-content: flex-end;
+}
+
+.kamen6 img {
+    object-fit: cover;
+    width: 443px;
+    height: 453px;
+    padding-left: 5%;
+
+}
+
+#kamni {
+    width: 100%;
+    margin-top: -100px;
+}
+
+#kamni img {
+    object-fit: cover;
+    width: 1163px;
+    height: 540px;
+}
+
+#podval img{
+    position: absolute;
+    /* margin-left: auto;
+    margin-right: auto; */
+
+    height: 884px;
+    width: 100%;
+    
+}
+#montaz {
+    position: absolute;
+    font-weight: 400;
+    font-size: calc(140px + 16 * (100vw / 1920));
+    line-height: 240px;
+    z-index: 2;
+    top: 451vh;
+    left: 59vw;
+}
