@@ -150,13 +150,37 @@ h1 {
     justify-content: flex-end;
 }
 
+/* .kamen1 div {
+    position: absolute;
+    width: 793px;
+    height: 702px;
+    margin-top: 1vh;
+    margin-right: 12vw;
+    background-color: gray;
+    border-radius: 558px;
+    z-index: 2;
+} */
+
 .kamen1 img {
     z-index: 1;
     object-fit: cover;
     min-width: 930px;
     height: 710px;
     padding-right: 8%;
+    animation: magia1 1s forwards;
     
+    
+}
+.kamen1 img:hover {
+    animation: magia 1s forwards;
+}
+@keyframes magia {
+    0% {opacity: 1;}
+    100%{ opacity: 0;}
+}
+@keyframes magia1 {
+    0% {opacity: 0;}
+    100%{ opacity: 100;}
 }
 
 .kamen2 {
