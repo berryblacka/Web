@@ -24,52 +24,69 @@ body {
     
 }
 
+.hui {
+
+    height: 1891px;
+    min-height: 1891px;
+    height: 40p;
+    /* background-color: black; */
+}
+
 h1 {
     display: flex;
     align-items: center;
     font-weight: 400;
-    font-size: calc(350px + 16 * (100vw / 1920));
+    font-size: 21vw;
     line-height: 400px;
     justify-content: space-around;
+    height: 24vw;
     
 }
 #chto {
-    display: flex;
+    display:flex;
     align-items: center;
     justify-content: space-around;
     font-weight: 400;
-    font-size: calc(84px + 16 * (100vw / 1920));
+    font-size: 5.6vw;
     line-height: 108px;
+    height: 3vw;
+    margin-bottom: 40vh;
+    
 }
 
 
 #obrabotka {
     position: absolute;
-    top: 1930px;
-    left: 7%;
+    /* top: 1930px; */
+    margin-top: 9vh;
+    left: 9vw;
     font-weight: 400;
-    font-size: calc(250px + 16 * (100vw / 1920));
+    font-size: 14vw;
     line-height: 108px;
     z-index: 2;
 }
 
 #put {
     position: absolute;
-    top: 2125px;
+    /* margin-top: -56vh; */
+    top: 22vw;
+    
     right: 2%;
     
     
 }
 
+
+
 #put p:nth-child(1) {
     font-weight: 400;
-    font-size: calc(140px + 16 * (100vw / 1920));
+    font-size: 7vw;
     line-height: 240px;
     text-align: right;
 }
 #put p:nth-child(2) {
     font-weight: 400;
-    font-size: calc(300px + 16 * (100vw / 1920));
+    font-size: 15vw;
     line-height: 100px;
     text-align: right;
 }
@@ -78,35 +95,51 @@ h1 {
 #pyat {
     position: absolute;
     font-weight: 400;
-    font-size: 1400px;
+    /* font-size: 1400px; */
+    font-size: 65vw;
     line-height: 240px;
-    top: 3079px;
-    left: 4%;
+    margin-top: 20vh;
+    left: 1vw;
 }
 
+.xz {
+    width: 100%;
+    margin-top: -77vh;
+    min-height: 23vh;
+}
+
+.xz2 {
+    width: 100%;
+    min-height: 23vh;
+    margin-top: -49vh;
+}
 #etap {
+    position: absolute;
     font-weight: 400;
-    font-size: 140px;
+    font-size: 7vw;
     line-height: 240px;
-    margin-left: 12vw;
-    margin-top: 5vh;
+    margin-left: 7vw;
+    margin-top: 9vh;
 }
 #razmetka {
     font-weight: 400;
-    font-size: 140px;
+    position: absolute;
+    font-size: 7vw;
     line-height: 240px;
-    margin-left: 65vw;
-    margin-top: -16vh;
+    margin-left: 67vw;
+    margin-top: -2vh;
 }
 #certy{
     position: absolute;
     width: 100%;
     font-weight: 400;
-    font-size: calc(140px + 16 * (100vw / 1920));
+    font-size: 7vw;
     line-height: 240px;
-    margin-top: -13vh;
+    margin-top: 4vh;
+    /* top: 67vh; */
     text-align: end;
 }
+
 
 #ogr {
     width: 748px;
@@ -117,12 +150,13 @@ h1 {
     margin-top: -2vw;
 }
 #rasp {
+    
     font-weight: 400;
-    font-size: calc(140px + 16 * (100vw / 1920));
-    line-height: 240px;
+    font-size: 7vw;
+    line-height: 3vh;
     transform: rotate(-50deg);
-    margin-left: 26vw;
-    margin-top: -5vh;
+    margin-left: 25vw;
+    margin-top: 34vh;
 }
 #volny {
     position: absolute;
@@ -145,7 +179,8 @@ h1 {
 
 .kamen1 {
     display: inline-flex;
-    margin-top: 1490px;
+    /* margin-top: 1490px; */
+    margin-top: 6vh;
     width: 100%;
     justify-content: flex-end;
 }
@@ -164,9 +199,10 @@ h1 {
 .kamen1 img {
     z-index: 1;
     object-fit: cover;
-    min-width: 930px;
-    height: 710px;
-    padding-right: 8%;
+    /* width: 930px; */
+    width: 55vw;
+    height: auto;
+    padding-right: 3vw;
     animation: magia1 1s forwards;
     
     
@@ -185,63 +221,113 @@ h1 {
 
 .kamen2 {
     display: inline-flex;
-    margin-top: -467px;
+    margin-top: -53vh;
     width: 100%;
     justify-content: flex-start;
 }
+.first_absolute{
+    position: relative;
+    width: 100%;
+    /* height: 89vh; */
+}
 
+.second_abslote {
+    width: 100%;
+    position: relative;
+    /* min-height: 19vh; */
+    min-height: 233px;
+    margin-top: 18vh;
+}
 .kamen2 img {
     object-fit: cover;
-    width: 693px;
-    height: 657px;
+    /* width: 693px; */
+    width: 34vw;
+    height: auto;
     padding-left: 5%;
     
 }
 .kamen3 {
     
-    height: 1000px;
-    display: inline-flex;
+    height: 437px;
+    display: flex;
     justify-content: flex-end;
-    width: 98%;
-    margin-top: -529px;
+    /* width: 98%; */
+    margin-top: -20vh;
 }
 
 .kamen3 img {
     object-fit: cover;
     position: absolute;
-    width: 760px;
-    height: 1000px;
+    /* width: 760px; */
+    width: 55vw;
+    height: 710px;
+}
+
+.fivth{
+    z-index: 5;
+}
+.fourth {
+    z-index: 4;
+}
+.third {
+    z-index: 3;
+}
+.second {
+    z-index: 2;
+}
+.first {
+    z-index: 1;
+}
+
+
+.fivth:hover ~ .first{
+    animation: krug 3s backwards;
+}
+
+.fivth:hover ~ .second{
+    animation: krug 3s backwards reverse;
+}
+
+
+@keyframes krug {
+    0% {transform: rotate(0deg);}
+    100% {transform: rotate(360deg);}
+
+    
 }
 
 .kamen4 {
     display: inline-flex;
-    margin-top: -764px;
-    width: 100%;
+    margin-top: -17vh;
+    /* width: 100%; */
     justify-content: flex-start;
 }
 
 .kamen4 img {
     object-fit: cover;
-    width: 963px;
-    height: 1196px;
-    padding-left: 5%;
+    width: 74vw;
+    height: auto;
+    margin-left: -15vw;
 
 }
+
+
 
 .kamen5 {
     
     height: 1000px;
     display: inline-flex;
     justify-content: flex-end;
-    width: 96%;
-    margin-top: -630px;
+    width: 91vw;
+    margin-top: 0vh;
 }
 
 .kamen5 img {
     object-fit: cover;
     position: absolute;
-    width: 870px;
-    height: 1000px;
+    /* width: 870px; */
+    width: 46vw;
+    height: auto;
 }
 
 .kamen6 {
